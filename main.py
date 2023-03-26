@@ -69,8 +69,8 @@ def summarize(args) -> None:
         "Estimated number of tokens in text: ", int(len(text) * config.TOKE_WORD_COEF)
     )
     # send for summarization
-    # summary = request_summary(text, args)
-    # save_txt(str(filename) + f'_summary_{args.max_tokens}_tokens', summary)
+    summary = request_summary(text, args)
+    save_txt(str(filename) + f'_summary_{args.max_tokens}_tokens', summary)
 
 
 if __name__ == "__main__":
