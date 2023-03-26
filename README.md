@@ -1,4 +1,4 @@
-# Simple OPEN AI GPT summarizer 
+# Simple OPEN AI GPT summarizer
 
 ## Installation
 ```console
@@ -14,4 +14,3 @@ Enter your [OPEN AI API KEY](https://platform.openai.com/account/api-keys) top `
 ```python
 python main.py --filepath=PDF_FILE_PATH
 ```
-
